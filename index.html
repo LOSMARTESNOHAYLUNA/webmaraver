@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seguros Maraver — ¿Estás realmente bien asegurado?</title>
+  <meta name="description" content="Correduría de seguros especializada en atención personalizada. Vida, hogar, empresas y más. Descubre si estás realmente bien asegurado con nuestro asesor IA.">
+  <meta name="keywords" content="seguros, correduría, seguro de vida, seguro hogar, seguro empresa, responsabilidad civil">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Seguros Maraver — ¿Estás realmente bien asegurado?">
+  <meta property="og:description" content="Revisión gratuita de tus coberturas. Atención cercana y personalizada. +23 años de experiencia.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAVIGATION
+     ═══════════════════════════════════════════ -->
+<nav id="navbar">
+  <a href="#inicio" class="nav-logo">
+    <div class="nav-logo-mark">SM</div>
+    <div>
+      <div class="nav-logo-text">Seguros Maraver</div>
+      <div class="nav-logo-sub">Correduría de Seguros</div>
+    </div>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#servicios">Seguros</a></li>
+    <li><a href="#testimonios">Clientes</a></li>
+    <li><a href="#sobre-maraver">Sobre nosotros</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#asistente" class="nav-cta">Comprobar mi cobertura</a></li>
+  </ul>
+
+  <button class="nav-mobile-btn" onclick="toggleMobileMenu()" aria-label="Abrir menú">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu -->
+<div id="mobileMenu" class="mobile-menu">
+  <a href="#servicios">Seguros</a>
+  <a href="#testimonios">Clientes</a>
+  <a href="#sobre-maraver">Sobre nosotros</a>
+  <a href="#faq">FAQ</a>
+  <a href="#asistente" class="mobile-cta">Comprobar mi cobertura gratis</a>
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     HERO
+     ═══════════════════════════════════════════ -->
+<section class="hero" id="inicio">
+  <div class="hero-pattern"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
+
+    <!-- Texto -->
+    <div class="hero-content">
+      <div class="hero-tag">Correduría de confianza desde 2001</div>
+      <h1 class="hero-title">
+        ¿Estás realmente<br>
+        <em>bien asegurado?</em>
+      </h1>
+      <p class="hero-subtitle">
+        La mayoría de personas pagan por seguros que no cubren lo que creen. En Maraver revisamos tu situación real y te decimos exactamente qué necesitas — y qué no.
+      </p>
+      <div class="hero-actions">
+        <a href="#asistente" class="btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 8v4l3 3"/></svg>
+          Comprobar mi cobertura gratis
+        </a>
+        <a href="#servicios" class="btn-ghost">Ver seguros</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-num">+23</div>
+          <div class="stat-label">Años de experiencia</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">2.400+</div>
+          <div class="stat-label">Familias y empresas</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">4.9★</div>
+          <div class="stat-label">Valoración media</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card visual -->
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-card">
+        <div class="hero-card-header">
+          <div class="hc-avatar">SM</div>
+          <div>
+            <div class="hc-name">Asistente Maraver</div>
+            <div class="hc-sub"><span class="hc-dot"></span>Disponible ahora</div>
+          </div>
+        </div>
+        <div class="hc-bubble">¡Hola! Soy el asistente de Maraver. En 2 minutos te digo si tus coberturas actuales realmente te protegen. ¿Eres particular, autónomo o tienes empresa?</div>
+        <div class="hc-options">
+          <span class="hc-opt">🏠 Soy particular</span>
+          <span class="hc-opt">💼 Soy autónomo</span>
+          <span class="hc-opt">🏢 Tengo empresa</span>
+        </div>
+      </div>
+      <div class="hero-floating">
+        <div class="hf-icon">✅</div>
+        <div>
+          <div class="hf-label">Revisión gratuita y sin compromiso</div>
+          <div class="hf-sub">Respuesta en menos de 24h</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     PAIN / RIESGOS
+     ═══════════════════════════════════════════ -->
+<section class="pain" id="riesgos">
+  <div class="section-inner">
+    <div class="pain-grid">
+
+      <div>
+        <div class="section-label">Los riesgos reales</div>
+        <h2 class="section-title">Los errores que más cuestan dinero y tranquilidad</h2>
+        <p class="section-subtitle">Millones de personas pagan seguros que no les cubren lo que creen. ¿Cuál de estos te suena?</p>
+
+        <div class="pain-items" style="margin-top: 36px;">
+          <div class="pain-item">
+            <span class="pain-icon" aria-hidden="true">🏠</span>
+            <div>
+              <div class="pain-title">El hogar asegurado por debajo de su valor real</div>
+              <div class="pain-desc">Si tienes infrasegurado el continente o el contenido, en un siniestro solo cobras la proporción que tienes cubierta.</div>
+            </div>
+          </div>
+          <div class="pain-item">
+            <span class="pain-icon" aria-hidden="true">⚕️</span>
+            <div>
+              <div class="pain-title">Baja laboral sin protección de ingresos</div>
+              <div class="pain-desc">Una enfermedad o accidente puede dejarte sin ingresos durante meses. Sin un seguro de vida o incapacidad, ¿cómo cubrirías los gastos fijos?</div>
+            </div>
+          </div>
+          <div class="pain-item">
+            <span class="pain-icon" aria-hidden="true">⚖️</span>
+            <div>
+              <div class="pain-title">Empresa sin Responsabilidad Civil</div>
+              <div class="pain-desc">Una reclamación de un cliente o tercero puede suponer decenas de miles de euros. Sin RC, lo asumes tú de tu bolsillo.</div>
+            </div>
+          </div>
+          <div class="pain-item">
+            <span class="pain-icon" aria-hidden="true">📋</span>
+            <div>
+              <div class="pain-title">Pólizas duplicadas o desactualizadas</div>
+              <div class="pain-desc">Muchos clientes pagan dos seguros que cubren lo mismo, o tienen pólizas que ya no se adaptan a su situación actual.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="pain-highlight">
+          <div class="ph-title">El problema no es estar asegurado.<br>Es estar <em>bien</em> asegurado.</div>
+          <div class="ph-desc">En Maraver no vendemos seguros. Analizamos tu situación real y te recomendamos exactamente lo que necesitas — ni más ni menos. Llevamos más de 20 años haciendo eso, una persona a la vez.</div>
+          <div class="ph-highlight-box">
+            <div class="ph-box-icon">🛡️</div>
+            <div>
+              <div class="ph-box-title">Revisión gratuita</div>
+              <div class="ph-box-desc">Sin compromiso. Te decimos exactamente qué tienes y qué te falta.</div>
+            </div>
+          </div>
+          <a href="#asistente" class="ph-cta">
+            Empezar la revisión
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SEGMENTS
+     ═══════════════════════════════════════════ -->
+<section id="clientes">
+  <div class="section-inner">
+    <div style="text-align: center; max-width: 560px; margin: 0 auto;">
+      <div class="section-label">Para quien somos</div>
+      <h2 class="section-title">Cada cliente es único.<br>Cada solución, también.</h2>
+    </div>
+    <div class="segments-grid">
+
+      <div class="seg-card">
+        <span class="seg-icon" aria-hidden="true">👨‍👩‍👧‍👦</span>
+        <div class="seg-title">Familias</div>
+        <p class="seg-desc">Protege lo más importante: tu hogar, tu salud y los que más quieres. Coberturas integrales que se adaptan a cada etapa de tu vida.</p>
+        <a href="#asistente" class="seg-link">
+          Quiero proteger mi familia
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="seg-card">
+        <span class="seg-icon" aria-hidden="true">💼</span>
+        <div class="seg-title">Autónomos</div>
+        <p class="seg-desc">Tu trabajo es tu mayor activo. Protege tus ingresos, tu responsabilidad y tu material ante cualquier imprevisto que te deje parado.</p>
+        <a href="#asistente" class="seg-link">
+          Revisar mis coberturas
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="seg-card">
+        <span class="seg-icon" aria-hidden="true">🏢</span>
+        <div class="seg-title">Empresas</div>
+        <p class="seg-desc">Soluciones para pymes y empresas medianas: RC, flotas, multirriesgo, empleados y más. Gestión completa desde un solo interlocutor.</p>
+        <a href="#asistente" class="seg-link">
+          Analizar mi empresa
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="seg-card">
+        <span class="seg-icon" aria-hidden="true">🏡</span>
+        <div class="seg-title">Particulares</div>
+        <p class="seg-desc">Desde el seguro del coche hasta la salud privada, pasando por tu vivienda. Todo lo que necesitas en un solo lugar de confianza.</p>
+        <a href="#asistente" class="seg-link">
+          Ver mis opciones
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SERVICES
+     ═══════════════════════════════════════════ -->
+<section class="services" id="servicios">
+  <div class="section-inner">
+    <div class="services-header">
+      <div>
+        <div class="section-label">Nuestros seguros</div>
+        <h2 class="section-title">Cobertura completa<br>para cada situación</h2>
+      </div>
+      <a href="#asistente" class="btn-primary" style="white-space: nowrap;">Asesoramiento gratuito →</a>
+    </div>
+    <div class="services-grid">
+
+      <div class="srv-card">
+        <div class="srv-icon-wrap" aria-hidden="true">❤️</div>
+        <div>
+          <div class="srv-title">Vida y Salud</div>
+          <p class="srv-desc">Protege tus ingresos y los de tu familia ante enfermedad, accidente o fallecimiento. Salud privada sin listas de espera con los mejores cuadros médicos.</p>
+          <div class="srv-tags">
+            <span class="srv-tag">Seguro de vida</span>
+            <span class="srv-tag">Salud privada</span>
+            <span class="srv-tag">Incapacidad</span>
+            <span class="srv-tag">Accidentes</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="srv-card">
+        <div class="srv-icon-wrap" aria-hidden="true">🏠</div>
+        <div>
+          <div class="srv-title">Hogar y Auto</div>
+          <p class="srv-desc">Tu hogar y tu vehículo bien protegidos. Coberturas amplias, asistencia 24h y gestión ágil de siniestros para que no pierdas ni un día de tranquilidad.</p>
+          <div class="srv-tags">
+            <span class="srv-tag">Multirriesgo hogar</span>
+            <span class="srv-tag">Todo riesgo</span>
+            <span class="srv-tag">Asistencia en viaje</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="srv-card">
+        <div class="srv-icon-wrap" aria-hidden="true">🏢</div>
+        <div>
+          <div class="srv-title">Empresas y RC</div>
+          <p class="srv-desc">Desde la responsabilidad civil profesional hasta el multirriesgo empresarial, flotas de vehículos y protección de tus empleados. Todo en un solo asesor.</p>
+          <div class="srv-tags">
+            <span class="srv-tag">Responsabilidad Civil</span>
+            <span class="srv-tag">Multirriesgo empresa</span>
+            <span class="srv-tag">Flotas</span>
+            <span class="srv-tag">D&amp;O</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="srv-card">
+        <div class="srv-icon-wrap" aria-hidden="true">🕊️</div>
+        <div>
+          <div class="srv-title">Decesos y Jubilación</div>
+          <p class="srv-desc">Planifica con tiempo y protege a tu familia de gastos imprevistos. Planes de jubilación y decesos flexibles adaptados a tu situación y presupuesto.</p>
+          <div class="srv-tags">
+            <span class="srv-tag">Seguro de decesos</span>
+            <span class="srv-tag">Plan de jubilación</span>
+            <span class="srv-tag">Ahorro</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SOCIAL PROOF
+     ═══════════════════════════════════════════ -->
+<section id="testimonios">
+  <div class="section-inner">
+    <div class="proof-header">
+      <div>
+        <div class="section-label">Lo que dicen nuestros clientes</div>
+        <h2 class="section-title">Más de 2.400 familias<br>y empresas confían en nosotros</h2>
+      </div>
+    </div>
+
+    <div class="proof-stats">
+      <div class="pstat">
+        <div class="pstat-num">+23</div>
+        <div class="pstat-label">Años protegiendo a nuestros clientes</div>
+      </div>
+      <div class="pstat">
+        <div class="pstat-num">4.9★</div>
+        <div class="pstat-label">Valoración media de nuestros clientes</div>
+      </div>
+      <div class="pstat">
+        <div class="pstat-num">97%</div>
+        <div class="pstat-label">Clientes que renuevan año tras año</div>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <article class="testi">
+        <div class="testi-stars" aria-label="5 estrellas">★★★★★</div>
+        <p class="testi-quote">Llevaba años con la misma aseguradora sin saber si estaba bien cubierto. Maraver revisó todo y encontraron que tenía el hogar infraasegurado en un 40%. Ahora duermo tranquilo.</p>
+        <div class="testi-author">
+          <div class="ta-avatar" style="background: var(--navy);" aria-hidden="true">JM</div>
+          <div>
+            <div class="ta-name">José Manuel R.</div>
+            <div class="ta-role">Propietario de vivienda · Madrid</div>
+          </div>
+        </div>
+      </article>
+      <article class="testi">
+        <div class="testi-stars" aria-label="5 estrellas">★★★★★</div>
+        <p class="testi-quote">Como autónoma, no sabía que mi seguro de hogar no cubría la parte profesional. Maraver me lo explicó todo clarísimo y me montaron una solución que encaja perfecta.</p>
+        <div class="testi-author">
+          <div class="ta-avatar" style="background: var(--orange);" aria-hidden="true">LP</div>
+          <div>
+            <div class="ta-name">Laura P.</div>
+            <div class="ta-role">Diseñadora freelance · Barcelona</div>
+          </div>
+        </div>
+      </article>
+      <article class="testi">
+        <div class="testi-stars" aria-label="5 estrellas">★★★★★</div>
+        <p class="testi-quote">Tenemos 18 empleados y Maraver gestiona toda nuestra cartera de seguros. Lo que más valoro es que hay una persona real al teléfono cuando la necesitas, no un bot.</p>
+        <div class="testi-author">
+          <div class="ta-avatar" style="background: var(--navy-light);" aria-hidden="true">AG</div>
+          <div>
+            <div class="ta-name">Andrés G.</div>
+            <div class="ta-role">CEO · Empresa de logística</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     AI ASSISTANT
+     ═══════════════════════════════════════════ -->
+<section class="asistente" id="asistente">
+  <div class="asistente-inner">
+
+    <!-- Texto izquierda -->
+    <div>
+      <div class="asistente-label">Inteligencia artificial + atención humana</div>
+      <h2 class="asistente-title">Descubre en 2 minutos si realmente estás <em>bien protegido</em></h2>
+      <p class="asistente-desc">Nuestro asistente hace las preguntas clave para analizar tu situación. Sin formularios eternos. Sin presión. Si hay lagunas, te lo decimos claro y te conectamos con un asesor real.</p>
+      <div class="asistente-features">
+        <div class="af-item">
+          <div class="af-icon" aria-hidden="true">🎯</div>
+          <div>
+            <div class="af-title">Diagnóstico personalizado</div>
+            <div class="af-desc">Preguntas adaptadas a tu perfil: familia, autónomo o empresa</div>
+          </div>
+        </div>
+        <div class="af-item">
+          <div class="af-icon" aria-hidden="true">⚡</div>
+          <div>
+            <div class="af-title">Respuesta en menos de 24h</div>
+            <div class="af-desc">Un asesor de Maraver te llama para revisar tu situación en detalle</div>
+          </div>
+        </div>
+        <div class="af-item">
+          <div class="af-icon" aria-hidden="true">🔒</div>
+          <div>
+            <div class="af-title">100% gratuito y sin compromiso</div>
+            <div class="af-desc">No hay obligación de contratar. Somos asesores, no vendedores</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chatbot -->
+    <div class="chat-wrap">
+      <div class="chatbot" role="region" aria-label="Asistente de Seguros Maraver">
+        <div class="cb-header">
+          <div class="cb-avatar" aria-hidden="true">SM</div>
+          <div>
+            <div class="cb-name">Asistente Maraver</div>
+            <div class="cb-status"><span class="cb-dot" aria-hidden="true"></span>Disponible ahora</div>
+          </div>
+        </div>
+        <div class="cb-msgs" id="cbMsgs" role="log" aria-live="polite" aria-label="Conversación"></div>
+        <div class="cb-qr" id="cbQR"></div>
+        <div class="cb-input-row">
+          <input
+            type="text"
+            class="cb-input"
+            id="cbInput"
+            placeholder="Escribe tu respuesta..."
+            aria-label="Escribe un mensaje"
+            autocomplete="off"
+          >
+          <button class="cb-send" onclick="sendMsg()" aria-label="Enviar mensaje">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+          </button>
+        </div>
+
+        <!-- Lead form overlay -->
+        <div class="cb-overlay hidden" id="cbOverlay" role="dialog" aria-label="Formulario de reserva">
+          <div class="cb-form">
+            <div id="cbFormContent">
+              <div class="cb-form-title">Reserva tu revisión gratuita</div>
+              <p class="cb-form-sub">Un asesor de Maraver te contactará en menos de 24h para revisar tu situación sin ningún compromiso.</p>
+              <div class="form-group">
+                <label class="form-label" for="fName">Nombre completo *</label>
+                <input type="text" class="form-input" id="fName" placeholder="Tu nombre y apellido" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="fPhone">Teléfono *</label>
+                <input type="tel" class="form-input" id="fPhone" placeholder="600 000 000" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="fEmail">Email</label>
+                <input type="email" class="form-input" id="fEmail" placeholder="tu@email.com">
+              </div>
+              <button class="form-submit" onclick="submitLead()">Quiero mi revisión gratuita</button>
+              <p class="form-note">Sin compromiso · 100% confidencial · Atención personalizada</p>
+            </div>
+            <div class="cb-success" id="cbSuccess">
+              <div class="success-icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div class="success-title">¡Todo listo!</div>
+              <p class="success-desc">Hemos recibido tu solicitud. El equipo de Seguros Maraver te contactará muy pronto para tu revisión personalizada.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     ABOUT + FAQ
+     ═══════════════════════════════════════════ -->
+<section class="about" id="sobre-maraver">
+  <div class="section-inner">
+    <div class="about-grid">
+
+      <!-- Sobre Maraver -->
+      <div>
+        <div class="section-label">Quiénes somos</div>
+        <h2 class="section-title">Más de 20 años construyendo confianza, una póliza a la vez</h2>
+        <p class="section-subtitle" style="margin-top: 16px;">Seguros Maraver nació con una idea muy clara: el seguro debe adaptarse a la persona, no al revés. Sin letra pequeña, sin procesos complicados, sin perderte en llamadas de centralita.</p>
+        <div class="about-values">
+          <div class="about-val">
+            <div class="av-icon" aria-hidden="true">🤝</div>
+            <div>
+              <div class="av-title">Un interlocutor, siempre el mismo</div>
+              <div class="av-desc">Tu asesor te conoce a ti y a tu situación. Cuando llamas, hablas con alguien que sabe quién eres.</div>
+            </div>
+          </div>
+          <div class="about-val">
+            <div class="av-icon" aria-hidden="true">🔍</div>
+            <div>
+              <div class="av-title">Honestidad antes que venta</div>
+              <div class="av-desc">Si no necesitas algo, te lo decimos. Nuestro negocio se basa en la confianza a largo plazo, no en la comisión de hoy.</div>
+            </div>
+          </div>
+          <div class="about-val">
+            <div class="av-icon" aria-hidden="true">⚡</div>
+            <div>
+              <div class="av-title">Ágiles cuando más importa</div>
+              <div class="av-desc">En los siniestros, somos nosotros los que gestionamos. Tú te centras en recuperarte.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div id="faq">
+        <div class="section-label">Preguntas frecuentes</div>
+        <h3 style="font-family: var(--font-display); font-size: 26px; font-weight: 600; color: var(--navy); margin-bottom: 28px; margin-top: 16px; line-height: 1.3;">Lo que nos preguntan siempre</h3>
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFAQ(this)" role="button" aria-expanded="false">
+              ¿La revisión de coberturas es realmente gratuita?
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="faq-a">Sí, completamente. El diagnóstico inicial no tiene ningún coste ni genera ninguna obligación. Somos una correduría; cobramos a las aseguradoras cuando contratas, no a ti por informarte.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFAQ(this)" role="button" aria-expanded="false">
+              ¿Tengo que cambiar de aseguradora?
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="faq-a">Para nada. A veces la mejor opción es optimizar lo que ya tienes. Si encontramos una mejor alternativa, te la presentamos con todos los datos para que decidas tú libremente.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFAQ(this)" role="button" aria-expanded="false">
+              ¿Con qué aseguradoras trabajáis?
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="faq-a">Como correduría, trabajamos con las principales aseguradoras del mercado español: Mapfre, Allianz, AXA, Zurich, Generali, Mutua Madrileña y más. Eso nos permite buscar siempre la mejor opción para tu caso.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFAQ(this)" role="button" aria-expanded="false">
+              ¿Cuánto tarda la revisión completa?
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="faq-a">El diagnóstico inicial con el asistente dura 2-3 minutos. La sesión con el asesor suele ser de 20-30 minutos por videollamada o teléfono, adaptada a tu disponibilidad.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFAQ(this)" role="button" aria-expanded="false">
+              ¿Qué pasa si tengo un siniestro?
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="faq-a">Nos llamáis a nosotros, no a la aseguradora. Gestionamos el siniestro en tu nombre, hacemos el seguimiento y te informamos en cada paso. Es una de las ventajas clave de trabajar con una correduría.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     FINAL CTA
+     ═══════════════════════════════════════════ -->
+<section class="final-cta">
+  <div class="section-inner">
+    <h2 class="cta-title">¿Listo para saber si estás<br><em>realmente</em> protegido?</h2>
+    <p class="cta-desc">En 2 minutos nuestro asistente analiza tu situación y te conecta con un asesor real. Gratis, sin compromiso, sin letra pequeña.</p>
+    <div class="cta-actions">
+      <a href="#asistente" class="btn-primary" style="font-size: 16px; padding: 16px 32px;">
+        Comprobar mi cobertura gratis
+      </a>
+      <a href="tel:+34900000000" class="btn-ghost" style="font-size: 16px; padding: 16px 32px;">
+        📞 Llamar a Maraver
+      </a>
+    </div>
+    <p class="cta-note">Más de 2.400 familias y empresas ya confían en nosotros · +23 años de experiencia</p>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+     ═══════════════════════════════════════════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#inicio" class="nav-logo">
+          <div class="nav-logo-mark">SM</div>
+          <div>
+            <div class="nav-logo-text" style="color: #fff;">Seguros Maraver</div>
+            <div class="nav-logo-sub">Correduría de Seguros</div>
+          </div>
+        </a>
+        <p>Correduría de seguros con más de 20 años de experiencia. Atención personalizada, honesta y cercana para familias, autónomos y empresas.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Seguros</h4>
+        <a href="#servicios">Vida y Salud</a>
+        <a href="#servicios">Hogar y Auto</a>
+        <a href="#servicios">Empresas y RC</a>
+        <a href="#servicios">Decesos y Jubilación</a>
+      </div>
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <a href="#sobre-maraver">Sobre nosotros</a>
+        <a href="#testimonios">Clientes</a>
+        <a href="#faq">FAQ</a>
+        <a href="#asistente">Contacto</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <a href="tel:+34900000000">📞 900 000 000</a>
+        <a href="mailto:hola@segurosmaraver.es">✉️ hola@segurosmaraver.es</a>
+        <a href="#">📍 Ver ubicación</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Seguros Maraver. Todos los derechos reservados.</p>
+      <div class="footer-legal">
+        <a href="#">Política de privacidad</a>
+        <a href="#">Aviso legal</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Scripts -->
+<script src="/js/main.js"></script>
+
+</body>
+</html>
